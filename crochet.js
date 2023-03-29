@@ -22,6 +22,6 @@ function reset() {
     countEl.textContent = count
 }
 function generate() {
-    love = "I love you infinity X " + Math.floor(Math.random()*999)
+    love = "I love you infinity X " + Math.floor(Math.random()*9999)
     loveEl.textContent = love
 }
